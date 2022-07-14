@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK_tb.syr" 

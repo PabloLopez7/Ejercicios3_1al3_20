@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/flipFlopJK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 flipFlopJK.ngc flipFlopJK.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o flipFlopJK_map.ncd flipFlopJK.ngd flipFlopJK.pcf 
+par -w -intstyle ise -ol high -mt off flipFlopJK_map.ncd flipFlopJK.ncd flipFlopJK.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml flipFlopJK.twx flipFlopJK.ncd -o flipFlopJK.twr flipFlopJK.pcf 

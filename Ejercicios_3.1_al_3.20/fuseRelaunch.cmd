@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/Ejercicios_3.1_al_3.20/ejercicio3_3_isim_beh.exe" -prj "C:/Xilinx/Ejercicios_3.1_al_3.20/ejercicio3_3_beh.prj" "work.ejercicio3_3" 

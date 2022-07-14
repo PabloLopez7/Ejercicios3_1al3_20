@@ -1,0 +1,29 @@
+Command line:
+   ejercicio3_3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60136
+
+Thu Jul 14 15:25:47 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.67 Meg
+
+ Total Signals          : 7
+ Total Nets             : 14
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+Total Line Count : 13
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 5150.67 Meg
+
+Thu Jul 14 15:36:33 2022
+

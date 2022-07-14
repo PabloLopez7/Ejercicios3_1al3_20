@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/estados.syr" 

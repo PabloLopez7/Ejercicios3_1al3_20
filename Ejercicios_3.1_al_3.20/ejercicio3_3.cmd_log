@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/ejercicio3_3.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/ejercicio3_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ejercicio3_3.ngc ejercicio3_3.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ejercicio3_3_map.ncd ejercicio3_3.ngd ejercicio3_3.pcf 
+par -w -intstyle ise -ol high -mt off ejercicio3_3_map.ncd ejercicio3_3.ncd ejercicio3_3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ejercicio3_3.twx ejercicio3_3.ncd -o ejercicio3_3.twr ejercicio3_3.pcf 

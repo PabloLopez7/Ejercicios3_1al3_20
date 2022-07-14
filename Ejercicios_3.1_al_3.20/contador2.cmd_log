@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 contador2.ngc contador2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o contador2_map.ncd contador2.ngd contador2.pcf 
+par -w -intstyle ise -ol high -mt off contador2_map.ncd contador2.ncd contador2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador2.twx contador2.ncd -o contador2.twr contador2.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.xst" -ofn "C:/Xilinx/Ejercicios_3.1_al_3.20/contador2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 contador2.ngc contador2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o contador2_map.ncd contador2.ngd contador2.pcf 
+par -w -intstyle ise -ol high -mt off contador2_map.ncd contador2.ncd contador2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml contador2.twx contador2.ncd -o contador2.twr contador2.pcf 
